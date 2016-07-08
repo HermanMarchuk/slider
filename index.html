@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>22.1</title>
+	<link rel="stylesheet" href="css/styles.css">
+	<script src="js/lib/jquery-2.2.4.min.js"></script>
+	<script src="js/slider.js"></script>
+	<script>
+		$(function() {
+			var parent = $('.parent');
+			var images = ['image1.jpg', 'image2.jpg', 'image3.jpg', 'image4.jpg'];
+			var slider = new Slider(parent, images);
+		});
+	</script>
+</head>
+<body>
+	<div class="parent"></div>
+</body>
+</html>
